@@ -5,3 +5,12 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+let companyName = 'Workflow Automation Solutions';
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    let companyNameSection = document.getElementsByClassName('navbar-brand')[0];
+    companyNameSection.innerHTML = companyName;
+    console.log('companyName: ' + companyNameSection.innerHTML);
+
+});
